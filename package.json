@@ -1,6 +1,6 @@
 {
   "name": "ngx-date",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -10,9 +10,9 @@
     "release": "np"
   },
   "np": {
-		"yarn": false,
-		"contents": "dist/ngx-date"
-	},
+    "yarn": false,
+    "contents": "dist/ngx-date"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~13.2.0",
