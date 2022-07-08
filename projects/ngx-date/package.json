@@ -1,11 +1,11 @@
 {
   "name": "ngx-date",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "peerDependencies": {
     "@angular/common": "^13.2.0",
     "@angular/core": "^13.2.0"
   },
-  "scripts":{
+  "scripts": {
     "build": "ng-packagr"
   },
   "dependencies": {
