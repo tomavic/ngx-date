@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "lerna run start --scope=ngx-date --stream",
+    "build": "lerna run build --scope=ngx-date --stream",
+    "buildlib": "lerna run build --scope=ngx-date --stream",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test --nowatch",
-    "release": "lerna version --no-private"
+    "test": "lerna run test --scope=ngx-date --stream"
   },
   "private": false,
   "dependencies": {
