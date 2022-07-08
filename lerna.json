@@ -3,5 +3,11 @@
     "projects/*"
   ],
   "useNx": false,
-  "version": "0.0.0"
+  "version": "independent",
+  "command": {
+    "version": {
+      "allowBranch": "main",
+      "conventionalCommits": true
+    }
+  }
 }
